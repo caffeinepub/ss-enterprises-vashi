@@ -18,16 +18,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <nav className="flex h-16 items-center justify-between lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground lg:h-12 lg:w-12">
-              <span className="text-xl font-bold lg:text-2xl">SS</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-sm font-semibold leading-tight text-foreground lg:text-base">
-                S S ENTERPRISES
-              </span>
-              <span className="text-xs text-muted-foreground lg:text-sm">आपले सरकार सेवा केंद्र</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/assets/uploads/Capture-1.JPG" 
+              alt="S S ENTERPRISES - आपले सरकार सेवा केंद्र"
+              className="h-12 w-auto lg:h-16"
+            />
           </Link>
 
           {/* Desktop Navigation */}
